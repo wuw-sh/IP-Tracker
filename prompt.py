@@ -11,10 +11,7 @@ def get_ip_details(ip):
         return None
     
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python ip.py <ip>")
-        sys.exit(1)
-    ip = sys.argv[1]
+    ip = input("Usage: python ip.py: ")
     details = get_ip_details(ip)
     if details is None:
         print("Error: Could not get ip details")

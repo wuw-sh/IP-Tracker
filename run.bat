@@ -1,0 +1,2 @@
+python prompt.py
+pause
