@@ -11,7 +11,7 @@ def get_ip_details(ip):
         return None
     
 def main():
-    ip = input("Usage: python ip.py: ")
+    ip = input("Enter IP address: ")
     details = get_ip_details(ip)
     if details is None:
         print("Error: Could not get ip details")
